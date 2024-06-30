@@ -15,7 +15,7 @@ Email: tuchsanai@it.kmitl.ac.th
 
 You can access our test environment at the following URL:
 
-[http://34.124.232.50:8088/](http://34.124.232.50:8088/)
+[http://34.124.232.50:8089/](http://34.124.232.50:8089/)
 
 **Note:** This URL will be available until 10 PM, June 30, 2024.
 
