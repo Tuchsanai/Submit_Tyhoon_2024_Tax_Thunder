@@ -1,0 +1,8 @@
+version: '3.8'
+
+services:
+  chainlit-app:
+    build: ./tax_thunder
+    ports:
+      - "8085:8000"
+    
