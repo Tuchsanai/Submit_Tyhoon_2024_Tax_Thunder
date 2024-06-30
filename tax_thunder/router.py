@@ -12,10 +12,12 @@ class RouteQuery(BaseModel):
     )
 
 llm = ChatOpenAI(
-    api_key="sk-proj-WdLUGNdnZPPGRPNaKwg5T3BlbkFJYH3GjkHyqmRphfLp3AAk",
-    model="gpt-3.5-turbo-0125",
-    temperature=0
-)
+        api_key="xxxxxxx",
+        openai_api_base="https://api.opentyphoon.ai/v1",
+        model="typhoon-v1.5x-70b-instruct",
+        temperature=0,
+        max_tokens=1000,
+    )
 
 structured_llm_router = llm.with_structured_output(RouteQuery)
 system = """You are an expert at routing a user question to a rag system or tax calculation.
